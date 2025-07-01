@@ -72,7 +72,7 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
+    title: "3D GPS Tracker System",
     des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
@@ -88,16 +88,16 @@ export const projects = [
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "Deep Learning Chatboot",
+    des: "A REAL Software-as-a-Service Generative app with AI features for assisting in Conversions with no Human in place the latest tech stack.",
     img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "/ui.aiimg.com",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    title: "Animated Apple Iphone 3D UI",
+    des: "Recreated the Apple iPhone 15 Pro UI, combining GSAP animations and Three.js 3D effects..",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "/ui.apple.com",
@@ -107,33 +107,40 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with David ISHIMWE was a truly rewarding experience. His technical expertise, attention to detail, and creative problem-solving made a big difference in our project. David doesn’t just meet expectations—he exceeds them. I’d confidently recommend him to anyone looking for a reliable and forward-thinking professional.",
+    name: "NSENGIMANA Lambert",
+    title: "Operator in OMH Metal Rwanda",
+    avatar: "/claude.png",
+    
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
+      "David’s commitment to excellence is unmatched. Throughout our collaboration, he consistently delivered high-quality work on time and with great communication. His ability to adapt and solve complex issues is truly impressive. A true asset to any team.",
+    name: "TURAHIRWA Djibril",
     title: "Director of AlphaStream Technologies",
+    avatar: "/fiacre.png",
+
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "It’s rare to come across someone as dedicated and versatile as David ISHIMWE. His deep understanding of modern technologies and his drive to learn and grow make him stand out. He brings energy, precision, and professionalism to every task.",
+    name: "MUGABEKAZI Sandrine",
+    title: "Digital Ambassador Supervisor",
+    avatar: "/waa.png",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "David ISHIMWE brings a rare blend of creativity and precision to every project. His ability to translate ideas into functional, elegant solutions is impressive. Beyond his technical skills, David is a great team player and communicator. I would gladly work with him again.",
+    name: "NSHIMIYIMANA Eric",
+    title: "Director Manager of ERIC Tech Co. Lltd",
+    avatar: "/eric.jpg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "David is one of the most dependable professionals I’ve ever worked with. He takes ownership, stays proactive, and ensures every detail aligns with the bigger picture. His work ethic is outstanding, and his calm approach under pressure is something every team needs.",
+    name: "NDACYAYISABA Ismael",
+    title: "Director Manager of IRONA Consulting Company",
+    avatar: "/mulima.png",
   },
 ];
 

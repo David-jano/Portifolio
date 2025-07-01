@@ -14,6 +14,7 @@ export const InfiniteMovingCards = ({
     quote: string;
     name: string;
     title: string;
+    avatar?: string;
   }[];
   direction?: "left" | "right";
   speed?: "fast" | "normal" | "slow";
@@ -41,6 +42,7 @@ export const InfiniteMovingCards = ({
       getDirection();
       getSpeed();
       setStart(true);
+      
     }
   }
   const getDirection = () => {
@@ -115,9 +117,11 @@ export const InfiniteMovingCards = ({
               </span>
               <div className="relative z-20 mt-6 flex flex-row items-center">
                 {/* add this div for the profile img */}
-                <div className="me-3">
-                  <img src="/profile.svg" alt="profile" />
-                </div>
+                <img
+                  src={item.avatar || "/default-avatar.png"}
+                  alt={`${item.name} profile`}
+                  className="w-20 h-20 p-3 rounded-full object-cover"
+                />
                 <span className="flex flex-col gap-1">
                   {/* change text color, font-normal to font-bold, text-xl */}
                   <span className="text-xl font-bold leading-[1.6] text-white">
